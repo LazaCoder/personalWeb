@@ -1,0 +1,33 @@
+.imageContainer {
+    position: relative;
+    width: 500px; /* Match Image width */
+    height: 500px; /* Match Image height */
+    border-radius: 50%; /* To ensure the shadow follows the round shape */
+    overflow: hidden; /* To keep everything contained */
+    border: solid 3px black; 
+    /* Add a box-shadow below */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* horizontal offset, vertical offset, blur radius, color */
+  }
+ 
+  .header {
+    font-size: 2.5rem; /* Adjust the font size as needed */
+    color: #2a2a2a; /* A darker color for the header */
+    font-weight: 600; /* Medium font weight */
+    margin-bottom: 0.7rem; /* Spacing after the header */
+  }
+
+
+  .separator {
+    width: 100%; /* Half-width separator for a modern look */
+    height: 4px; /* Thickness of the separator */
+    background-color: black; /* A blue color to match the header, adjust the color code as needed */
+    margin-bottom: 1rem; /* Spacing after the separator */
+  }
+
+  .paragraph {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    line-height: 1.6; /* Line height for better readability */
+    color: #4a4a4a; /* A slightly lighter color for the paragraph text */
+    text-align: justify;
+  }
+  

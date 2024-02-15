@@ -3,8 +3,10 @@ import React from 'react';
 import styles from '../../styles/Header.module.css'; // Adjust the path as necessary
 import Link from 'next/link';
 import Image from 'next/image';
+import { useState,useEffect } from 'react';
 
 export default function Header() {
+    
   return (
     <div className={`${styles.header} bg-gradient-to-r from-cyan-500 to-blue-500 h-50 flex py-4 justify-between font-sans`}>
         <div className=" px-0"><Image width={60} height={60} src={'/logo.png'}   /></div>

@@ -1,6 +1,6 @@
 
 import "/styles/global.css";
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+
 
 function MyApp({ Component, pageProps }) {
   return (

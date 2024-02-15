@@ -88,7 +88,7 @@ return (
                 <h1 className="text-4xl font-bold text-gray-800 mb-4 overflow-hidden">Personal Website</h1>
 
                 <p className="text-lg text-gray-600">
-                    In today's digital age, a personal website serves as the cornerstone of a professional online
+                    In the world of digital age, a personal website serves as the cornerstone of a professional online
                     identity.
                     With that philosophy in mind, I created this website to highlight my projects, share my thoughts,
                     and facilitate connections with fellow developers and potential employers.

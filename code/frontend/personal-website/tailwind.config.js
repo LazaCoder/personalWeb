@@ -10,10 +10,14 @@ module.exports = {
       'sans': ['Zilla Slab', 'sans-serif'],
     },
     extend: {
+      colors: {
+        'custom-light-blue': '#e6eff9',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+          'gradient-to-b': 'linear-gradient(to bottom, #ffffff 0%, #e6eff9 100%)',
       },
     },
   },

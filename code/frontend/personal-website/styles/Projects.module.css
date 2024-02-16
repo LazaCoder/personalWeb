@@ -1,0 +1,6 @@
+.divider {
+    height: 4px;
+    background: linear-gradient(to right, #E0EAFC, #CFDEF3); /* Replace with your desired colors */
+    margin: 0 auto; /* Centers the line if it's not full width */
+    width: 50%; /* Adjust the width to your preference */
+  }

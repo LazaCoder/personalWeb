@@ -5,7 +5,7 @@ import Head from 'next/head';
 
 export default function index() {
   return (
-    <div className="font-sans">
+    <div className="font-sans h-screen bg-blue-100">
         <Head>
             <title>About</title>
         </Head>

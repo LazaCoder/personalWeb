@@ -20,7 +20,7 @@ export default function Hero() {
         // Initialize Typed.js for the paragraph
         const options = {
             strings: [
-              'Welcome to my personal space on the web. As a junior fullstack developer with a passion for creating elegant and efficient user interfaces and also object oriented Java projects, my journey has taken me from the beautiful coasts of Split to the academic halls of Zagreb\'s FER and back, where I\'m currently enriching my expertise at FESB. Away from the keyboard, I find solace in the strings of my guitar and the discipline of the gym. Dive into my portfolio to see the stories woven through code, where each project narrates a chapter of my professional saga.'
+              'Welcome to my personal space on the web. As a junior developer with a passion for creating elegant and efficient user interfaces and also object oriented Java projects, my journey has taken me from the beautiful coasts of Split to the academic halls of Zagreb\'s FER and back, where I\'m currently enriching my expertise at FESB. Away from the keyboard, I find solace in the strings of my guitar and the discipline of the gym. Dive into my portfolio to see the stories woven through code, where each project narrates a chapter of my professional saga.'
             ],
             typeSpeed: 2,
             showCursor: false,

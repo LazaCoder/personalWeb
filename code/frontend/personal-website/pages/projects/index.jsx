@@ -24,9 +24,15 @@ offset: 300, // Offset to trigger animation in pixels
 });
 }, []);
 
-const handlePortafolio = () => {
+const handlePortafolio = (event) => {
 
-router.push('/projects')
+if(event.currentTarget.classList.contains('homedecor')){
+router.push("https://github.com/LazaCoder/HCIprojekt");
+} else if (event.currentTarget.classList.contains('personalweb')) {
+router.push("https://github.com/LazaCoder/personalWeb");
+} else if (event.currentTarget.classList.contains('personalweb')) {
+    router.push("https://github.com/LazaCoder/homeAssistantProject");
+    }
 }
 
 
@@ -56,7 +62,7 @@ return (
                     shopping experience.
                 </p>
                 <button
-                    className="bg-gray-800 text-white font-semibold py-2 px-4 mt-5 rounded-xl hover:border-black hover:border hover:text-black hover:bg-gray-300 transition duration-300 ease-in-out"
+                    className="bg-gray-800 text-white font-semibold py-2 px-4 mt-5 rounded-xl hover:border-black hover:border hover:text-black hover:bg-gray-300 transition duration-300 ease-in-out homedecor"
                     onClick={handlePortafolio}>
                     View on Github
                 </button>
@@ -89,16 +95,16 @@ return (
                 <h1 className="text-4xl font-bold text-gray-800 mb-4 overflow-hidden">Home Assistant Web App</h1>
 
                 <p className="text-lg text-gray-600">
-                    In the world of digital age, a personal website serves as the cornerstone of a professional online
-                    identity.
-                    With that philosophy in mind, I created this website to highlight my projects, share my thoughts,
-                    and facilitate connections with fellow developers and potential employers.
-                    The website features a clean, responsive design, a dynamic blog,
-                    and a portfolio section that together present my work and ideas in the best light.
+                    This thesis develops a web application for smart home data visualization,
+                    utilizing the Home Assistant platform for device management and automation.
+                    It introduces smart homes and IoT, details the use of Home Assistant and React for development,
+                    and describes the application's implementation and functionalities.
+                    A case study demonstrates its practical application in smart home environments,
+                    highlighting the importance of modern IoT technologies.
                 </p>
-                <button
-                    className="bg-gray-800 text-white font-semibold py-2 px-4 mt-5 rounded-xl hover:border-black hover:border hover:text-black hover:bg-gray-300 transition duration-300 ease-in-out"
-                    onClick={handlePortafolio}>
+                <button className={`bg-gray-800 text-white font-semibold py-2 px-4 mt-5 rounded-xl hover:border-black
+                    hover:border hover:text-black hover:bg-gray-300 transition duration-300 ease-in-out homeAssistant
+                    ${styles.buttonShadow}`} onClick={handlePortafolio}>
                     View on Github
                 </button>
             </div>
@@ -113,7 +119,7 @@ return (
                     <div className="border-none rounded-xl bg-gray-300 px-3 py-1">HTML</div>
                     <div className="border-none rounded-xl bg-gray-300 px-3 py-1">CSS</div>
                     <div className="border-none rounded-xl bg-gray-300 px-3 py-1">Javascript</div>
-                    <div className="border-none rounded-xl bg-gray-300 px-3 py-1">Philips Vue</div>
+                    <div className="border-none rounded-xl bg-gray-300 px-3 py-1">Philips Hue</div>
                 </div>
             </div>
         </div>
@@ -137,9 +143,9 @@ return (
                     The website features a clean, responsive design, a dynamic blog,
                     and a portfolio section that together present my work and ideas in the best light.
                 </p>
-                <button
-                    className="bg-gray-800 text-white font-semibold py-2 px-4 mt-5 rounded-xl hover:border-black hover:border hover:text-black hover:bg-gray-300 transition duration-300 ease-in-out"
-                    onClick={handlePortafolio}>
+                <button className={`bg-gray-800 text-white font-semibold py-2 px-4 mt-5 rounded-xl hover:border-black
+                    hover:border hover:text-black hover:bg-gray-300 transition duration-300 ease-in-out personalweb
+                    ${styles.buttonShadow}`} onClick={handlePortafolio}>
                     View on Github
                 </button>
             </div>

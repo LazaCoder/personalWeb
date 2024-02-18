@@ -4,3 +4,12 @@
     margin: 0 auto; /* Centers the line if it's not full width */
     width: 50%; /* Adjust the width to your preference */
   }
+
+  .buttonShadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.buttonShadow:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}

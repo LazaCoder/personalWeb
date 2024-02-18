@@ -98,7 +98,7 @@ return (
                     This thesis develops a web application for smart home data visualization,
                     utilizing the Home Assistant platform for device management and automation.
                     It introduces smart homes and IoT, details the use of Home Assistant and React for development,
-                    and describes the application's implementation and functionalities.
+                    and describes the application implementation and functionalities.
                     A case study demonstrates its practical application in smart home environments,
                     highlighting the importance of modern IoT technologies.
                 </p>
